@@ -1,6 +1,5 @@
-export const API_BASE_URL = 'server-tasks-production.up.railway.app'; 
+export const API_BASE_URL = 'https://server-tasks-production.up.railway.app/api/v1';
 import { useState, useEffect } from 'react';
-
 
 export const useLocalStorage = (key, defaultValue) => {
   const [value, setValue] = useState(() => {
